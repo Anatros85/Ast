@@ -1,0 +1,97 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Style pour l'en-tête */
+header {
+    position: relative;
+    background-image: url('https://static.wixstatic.com/media/9b2f74_18918856d84b4844a514f02c03fc6da8~mv2.jpg/v1/fill/w_1038,h_275,al_c,q_80,enc_auto/9b2f74_18918856d84b4844a514f02c03fc6da8~mv2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 5em;
+    font-family: 'Tilt Neon', sans-serif;    
+}
+
+.desc {
+    font-size: 2em;
+}
+
+/* Style pour la barre de navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Déplace les éléments vers la droite */
+}
+
+nav ul li:last-child {
+    margin-right: 50;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style pour la barre de navigation */
+.navbar {
+    margin-left: auto; /* Pour déplacer la barre de navigation à droite */
+}
+
+
+/* Style pour le contenu principal */
+main {
+    padding: 20px;
+}
+
+/* Style pour les sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style pour le pied de page */
+.fotr {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
